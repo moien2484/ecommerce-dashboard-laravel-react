@@ -1,0 +1,119 @@
+.card-carousel-pro {
+  position: absolute;
+  background-color: #fff;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  box-shadow: rgb(0 0 0 / 10%) 0 0 10px 0;
+  border: 1px solid #ccc;
+  cursor: grab;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.header-carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.header-carousel > :nth-child(2) {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  text-align: center;
+  line-height: 20px !important;
+}
+.body-carousel > :nth-child(1) {
+  font-size: 12px !important;
+  color: #4e4e4e;
+  margin: 5px 10px 0px 0px !important;
+}
+.first-card-carousel-pro img {
+  width: 60%;
+  height: auto;
+}
+.first-card-carousel-pro {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px !important;
+}
+/* @media only screen and (max-width : 620px){
+  .parent-carousel-card-first {
+    display: none;
+  }
+} */
+@media only screen and (max-width: 992px) {
+  .first-card-carousel-pro {
+    margin-top: 30px !important;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .first-card-carousel-pro {
+    margin-top: 40px !important;
+  }
+  .card-carousel-pro {
+    width: 220px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .first-card-carousel-pro {
+    margin-top: 50px !important;
+    
+  }
+  .first-card-carousel-pro img{
+    width: 80%;
+  }
+}
+.body-carousel {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 15px 15px 15px !important;
+  gap: 15px;
+}
+.img-carousel-pro{
+  width: 150px ;
+  height: 150px;
+}
+.img-carousel-pro img {
+  width: 100%;
+  height: auto;
+}
+.subject-bill{
+  font-size: 14px !important;
+    font-weight: 500 !important;
+}
+.price-Transportation{
+  font-size: 13px !important;
+  color: #858585;
+}
+.parent-item-bill{
+  border-bottom: 1px solid #a4a4a4;
+}
+.parent-sub {
+  background-color: #f8f9fa !important;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1) !important;
+  border: 1px solid #ced4da;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0px !important;
+}
+.parent-view {
+  background-color: #0070ff;
+  color: #fff;
+  display: flex;
+  width: 100px;
+  justify-content: space-around;
+  padding: 8px !important;
+  cursor: pointer;
+}
+/* .add {
+  background-color: #ff9100;
+  color: #fff;
+  display: flex;
+  width: 35px;
+  cursor: pointer;
+  justify-content: space-around;
+  padding: 8px !important;
+} */

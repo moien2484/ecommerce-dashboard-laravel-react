@@ -1,0 +1,60 @@
+.parent-nav {
+  width: 100%;
+  height: 90px;
+  box-shadow: rgb(0 0 0 / 10%) 0 0 10px 0 !important;
+  border: 2px solid #e9e9e9;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-nav {
+  display: flex;
+  gap: 35px;
+}
+.location-country > :nth-child(2) {
+  color: rgba(33, 37, 41, 0.75);
+  font-size: 10px !important;
+  margin-top: 10px !important;
+}
+.location-parent-nav {
+  display: flex;
+  gap: 15px;
+}
+.icon-location i {
+  color: #ff9100;
+  font-size: 30px !important;
+  margin-top: 8px !important;
+}
+.list-item-nav {
+  color: #666;
+  font-size: 15px !important;
+  margin-top: 10px !important;
+  cursor: pointer;
+}
+.list-item-nav i {
+  margin-left: 6px !important;
+}
+.list-item-nav-main i {
+  margin-left: 6px !important;
+}
+.list-item-nav-main {
+  color: #fff;
+  background-color: #006af2;
+  padding: 10px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.navbar-fixed {
+  position: fixed !important;
+  top: 0px;
+  width: 80% !important;
+  z-index: 100;
+}
+@media screen and (max-width:992px){
+  .isshow-nav{
+      display: none;
+  }
+}

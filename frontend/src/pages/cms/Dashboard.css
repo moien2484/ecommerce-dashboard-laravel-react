@@ -1,0 +1,9 @@
+.parent-cms{
+    display: flex;
+}
+.parent-cms-menu{
+    flex: 1;
+}
+.content-dashboard{
+    flex: 4;
+}

@@ -1,0 +1,6 @@
+.parent-amazing {
+  background: #0070ff url("img/18.png") !important;
+  display: flex;
+  align-items: center;
+  height: 350px;
+}

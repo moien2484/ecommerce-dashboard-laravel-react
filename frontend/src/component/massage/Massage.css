@@ -1,0 +1,14 @@
+.btn-add{
+    background-color: #ff9100;
+}
+.btn-add:hover{
+    background-color: #e48202 !important;
+}
+@import url("./reset.css");
+@font-face{
+    font-family: sahel;
+    src: url('fonts/Sahel.ttf') format('ttf');
+  }
+  body{
+    font-family: sahel !important;
+  }

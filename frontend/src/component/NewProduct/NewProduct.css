@@ -1,0 +1,9 @@
+.parent-newpro {
+    background: #0070ff url("img/18.png") !important;
+    display: flex;
+    align-items: center;
+    height: 200px;
+  }
+  .mt-carousel-newpro{
+    margin-top: 170px !important;
+  }

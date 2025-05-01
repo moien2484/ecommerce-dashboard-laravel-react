@@ -1,0 +1,8 @@
+@import url("./reset.css");
+@font-face{
+    font-family: sahel;
+    src: url('fonts/Sahel.ttf') format('ttf');
+  }
+  body{
+    font-family: sahel !important;
+  }

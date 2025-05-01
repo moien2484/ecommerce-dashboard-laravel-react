@@ -1,0 +1,14 @@
+.parent-biil-pro{
+    box-shadow: rgb(0 0 0 / 10%) 0 0 10px 0;
+    background-color: #fff;
+    width: 100%;
+    padding: 15px 15px !important;
+}
+
+.btn-bill{
+    padding: 15px 15px !important;
+    text-align: center;
+    background-color: #006af2;
+    color: #fff;
+    cursor: pointer;
+}

@@ -1,0 +1,15 @@
+.ant-menu-item {
+  display: flex;
+  gap: 10px;
+  /* margin-right: 18px !important; */
+}
+.ant-menu > :nth-child(1) {
+  font-size: 18px !important;
+  font-weight: 500 !important;
+}
+.ant-menu {
+  padding: 0px 15px !important;
+}
+.ant-menu li {
+    padding: 0px 8px !important;
+}

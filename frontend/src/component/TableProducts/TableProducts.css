@@ -1,0 +1,72 @@
+.parent-table-pro {
+  box-shadow: rgb(0 0 0 / 10%) 0 0 10px 0;
+  background-color: #fff;
+  width: 100%;
+  padding: 0px 15px !important;
+}
+th,
+td {
+  padding: 12px !important;
+  text-align: center;
+}
+.parent-table-data-pro {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* margin: 20px 0px !important; */
+}
+.data-pro > :nth-child(1) {
+  font-size: 20px !important;
+  border-radius: 50%;
+  background: #f0f0f0;
+  color: #be0404;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.3s;
+  transition-property: all;
+  cursor: pointer;
+}
+.data-pro > :nth-child(1):hover {
+  background: #be0404;
+  color: #f0f0f0;
+}
+.data-pro > :nth-child(2) img {
+  width: 70%;
+  height: auto;
+}
+.data-pro {
+  font-size: 13.5px !important;
+  display: flex;
+  width: 100% !important;
+  justify-content: space-between;
+  align-items: center;
+}
+.plus,
+.minus {
+  background-color: #0070ff;
+  color: #fff;
+  box-shadow: rgb(0 0 0 / 10%) 0 0 10px 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px !important;
+  cursor: pointer;
+}
+.number-pro {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  box-shadow: rgb(0 0 0 / 10%) 0 0 10px 0;
+  border: 1px solid #ccc;
+  justify-content: center;
+  width: 50px;
+}
+.data-pro > :nth-child(4) {
+  display: flex;
+  gap: 10px;
+}

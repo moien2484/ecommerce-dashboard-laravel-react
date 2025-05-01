@@ -1,0 +1,73 @@
+.products-main {
+  margin-top: 60px !important;
+}
+
+.products-title {
+  font-size: 2rem !important;
+  display: flex;
+}
+
+.add-products-form {
+  margin-top: 30px !important;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 20px !important;
+  border-radius: 20px !important;
+}
+
+.add-products-form-wrap {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 15px !important;
+}
+
+.add-products-form-group {
+  display: flex;
+  align-items: center;
+  column-gap: 10px !important;
+  width: 100%;
+  background-color: #f4f4f4 !important;
+  padding: 0 20px !important;
+  border-radius: 10px !important;
+}
+
+.add-products-input {
+  outline: none;
+  border: none;
+  background: unset;
+  padding: 8px 10px !important;
+  font-size: 1.1rem !important;
+  width: 100%;
+}
+
+.add-products-submit {
+  background-color: #006af2;
+  color: #fff;
+  margin-top: 10px !important;
+  padding: 10px 20px !important;
+  font-size: 1.1rem !important;
+  border-radius: 10px !important;
+  border: none;
+}
+.custom-img-upload {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.upload-button{
+    background-color: #f4f4f4 !important;
+    padding: 12px 18px !important;
+    border-radius: 10px !important;
+    cursor: pointer;
+    color: #757575;
+}
+.submit-ada-new-pro-photo{
+  background-color: #d4edda;
+  color: #155724;
+  padding: 5px 10px !important;
+  font-size: 12px !important;
+  border-radius: 5px;
+}

@@ -1,0 +1,33 @@
+.img-pro-cms {
+  width: 130px;
+}
+.img-pro-cms img {
+  width: 100%;
+  height: auto;
+}
+.btn-pro-cms > :nth-child(1) {
+  color: #d95087;
+  background-color: #fff0f1;
+  margin-right: 30px !important;
+  border: none;
+  padding: 12px 18px;
+  transition-property: all;
+  transition-duration: 0.3s;
+}
+.btn-pro-cms > :nth-child(1):hover {
+  color: #fff0f1;
+  background-color: #d95087;
+}
+.btn-pro-cms > :nth-child(2) {
+  color: #2a7ade;
+  background-color: #ebf1fe;
+  margin-right: 30px !important;
+  border: none;
+  padding: 12px 18px;
+  transition-property: all;
+  transition-duration: 0.3s;
+}
+.btn-pro-cms > :nth-child(2):hover {
+  color: #fff;
+  background-color: #2a7ade;
+}
